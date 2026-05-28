@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #a2708a;
+  text-align: center;
+}
+.container {
+  /* border: 2px solid rgb(255, 255, 255); */
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_game {
+  /* border: 2px solid aqua; */
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 190px;
+  width: 190px;
+  border-radius: 1rem;
+  /* border-style: none; */
+  font-size: 70px;
+  background-color: rgb(155, 228, 18);
+  color: rgb(23, 19, 19);
+}
+#resetgame{
+  height: 70px;
+  width: 180px;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-size: 23px;
+}
+.turn{
+  height: 40px;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: blanchedalmond;
+}
+.hello{
+ height: 100%;
+ width:100%;
+ background-color: rgba(0,0,0,0.5);
+ display: flex;
+ flex-direction: column;
+ left: 0;
+ top: 0;
+ justify-content: center;
+ align-items: center;
+ z-index:999;
+ position: fixed;
+ backdrop-filter: blur(3px);
+}
+
+.pop-up{
+  font-size: 70px;
+  color:bisque;
+}
+.kp{
+  height: 60px;
+  width: 170px;
+  background-color:bisque;
+  font-size: 25px;
+  border-radius: 15px;
+  border-style: none;
+}
