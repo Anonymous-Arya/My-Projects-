@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.calculator{
+  height: 400px;
+  width: 300px;
+  border: 1px solid red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.heading {
+  text-align: center;
+  margin-top: 130px;
+}
+.btn{
+  display: flex;
+
+}
+.oprbtn{
+  height: 60px;
+  width: 60px;
+  border: 1px solid aqua;
+}
