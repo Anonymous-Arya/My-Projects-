@@ -1,0 +1,151 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(current_wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+}
+.main::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient();
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #424242;
+}
+.icon {
+  margin-left: 30px;
+  font-size: 40px;
+  font-family: Georgia;
+  color: #48cfcb;
+}
+.items ul {
+  color: #48cfcb;
+  width: 700px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+.items ul li a {
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.items ul li a:hover {
+  color: #ff9a00;
+}
+.search {
+  display: flex;
+  width: 400px;
+  margin-left: 120px;
+  align-items: center;
+}
+.srchbr {
+  width: 100%;
+  height: 24px;
+  border: 1.8px solid #ff9a00;
+  outline: none;
+  padding: 0%;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.btn {
+  width: 60px;
+  height: 27px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1.8px solid #ff9a00;
+  outline: none;
+  padding: 0%;
+  border-left: 1.8px solid #ff9a00;
+}
+.items ul li {
+  list-style: none;
+}
+.midcontent {
+  width: 100%;
+  height:100vh;
+  display: flex;
+}
+.text {
+  font-size: 25px;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.h1text {
+  font-size: 45px;
+  margin-bottom: 13px;
+}
+.textcontent {
+  justify-content: left;
+  color: antiquewhite;
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+
+/*HERE IAM WORKING WITH THE WORK EXEPERIENCE DIV*/
+
+.work {
+  width: 350px;
+  height: 500px;
+  background-color: #ede8dc;
+  opacity: 0.5;
+  border-radius: 9px;
+  /* margin-left: 60px;
+  margin-top: 120px; */
+  margin: 120px 0px 0px 180px ;
+}
+.workheading {
+  margin-top: 17px;
+  color: black;
+  text-align: center;
+}
+.wrktext {
+  margin-left: 5px;
+}
+.workname{
+  margin-bottom: 3px;
+  margin-top: 8px;
+}
+
+/*HERE IAM WORKING WITH THE PROJECTS DIV*/
+
+.projects {
+  width: 350px;
+  height: 500px;
+  background-color: #e7cccc;
+  opacity: 0.5;
+  border-radius: 9px;
+  /* margin-left: 60px;
+  margin-top: 120px; */
+  margin: 120px 0px 0px 70px ;
+}
+.projectheading {
+  margin-top: 17px;
+  color: black;
+  text-align: center;
+}
+.protext{
+  margin-left:5px;
+}
+.proname{
+  margin-bottom: 3px;
+  margin-top: 8px;
+}
+
+
